@@ -1,0 +1,96 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "name": "Book",
+      "description": "a tales of a 1000 and 1 night",
+      "price": {
+        "priceValue": 60.00,
+        "taxPercentage": 10.00,
+        "effectiveDate": "2022-09-17"
+      },
+      "property": [
+        {
+          "property": "color",
+          "propertyValue": "red"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Table",
+      "description": "a solid wooden table",
+      "price": {
+        "priceValue": 500.00,
+        "taxPercentage": 10.00,
+        "effectiveDate": "2022-09-16"
+      },
+      "property": [
+        {
+          "property": "color",
+          "propertyValue": "black"
+        }
+      ]
+    },
+    {"id": 3,
+      "name": "Vinyl",
+      "description": "Linkin Park Hybrid Theory",
+      "price": {
+        "priceValue": 45.00,
+        "taxPercentage": 23.00,
+        "effectiveDate": "2022-09-15"
+      },
+      "property": [
+        {
+          "property": "color",
+          "propertyValue": "orange"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Guitar",
+      "description": "Jimi Hendrix style",
+      "price": {
+        "priceValue": 450.00,
+        "taxPercentage": 23.00,
+        "effectiveDate": "2022-11-17"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Computer",
+      "description": "DELL Inspiration model",
+      "price": {
+        "priceValue": 5000.00,
+        "taxPercentage": 23.00,
+        "effectiveDate": "2022-11-17"
+      }
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "empty": true,
+      "sorted": false,
+      "unsorted": true
+    },
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 6,
+    "unpaged": false,
+    "paged": true
+  },
+  "last": true,
+  "totalElements": 5,
+  "totalPages": 1,
+  "size": 6,
+  "number": 0,
+  "sort": {
+    "empty": true,
+    "sorted": false,
+    "unsorted": true
+  },
+  "first": true,
+  "numberOfElements": 5,
+  "empty": false
+}

@@ -1,0 +1,18 @@
+package com.kotlin.productservice.exception
+
+import org.springframework.http.ResponseEntity
+import org.springframework.web.bind.annotation.ControllerAdvice
+import org.springframework.web.bind.annotation.ExceptionHandler
+import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler
+
+@ControllerAdvice
+@RestController
+class ExceptionResponseHandler : ResponseEntityExceptionHandler() {
+    //TODO : loggers
+    @ExceptionHandler(CustomException::class)
+    fun handleCustomExceptions(ex: CustomException): ResponseEntity<CustomExceptionResponse> {
+      //  log.error("<< " + ex.message)
+        return ResponseEntity.status(ex.httpStatus).body(CustomExceptionResponse(ex))
+    }
+}

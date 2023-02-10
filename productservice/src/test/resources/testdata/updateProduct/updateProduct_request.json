@@ -1,0 +1,15 @@
+{
+  "description": "updated_Description",
+  "name": "updated_Name",
+  "price": {
+    "priceValue": 90.00,
+    "taxPercentage": 11.00,
+    "effectiveDate": "2022-10-11"
+  },
+  "property": [
+    {
+      "property": "new",
+      "propertyValue": "new color"
+    }
+  ]
+}

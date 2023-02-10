@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "name": "updated_Name",
+  "description": "updated_Description",
+  "status": "ACTIVE",
+  "price": [
+    {
+      "priceValue": 90.00,
+      "taxPercentage": 11.00,
+      "effectiveDate": "2022-10-11"
+    },
+    {
+      "priceValue": 60.00,
+      "taxPercentage": 10.00,
+      "effectiveDate": "2022-09-17"
+    }
+  ],
+  "property": [
+    {
+      "property": "new",
+      "propertyValue": "new color"
+    }
+  ]
+}

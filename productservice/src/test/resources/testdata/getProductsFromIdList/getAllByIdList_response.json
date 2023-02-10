@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Book",
+    "description": "a tales of a 1000 and 1 night",
+    "price": {
+      "priceValue": 60.00,
+      "taxPercentage": 10.00,
+      "effectiveDate": "2022-09-17"
+    },
+    "property": [
+      {
+        "property": "color",
+        "propertyValue": "red"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vinyl",
+    "description": "Linkin Park Hybrid Theory",
+    "price": {
+      "priceValue": 45.00,
+      "taxPercentage": 23.00,
+      "effectiveDate": "2022-09-15"
+    },
+    "property": [
+      {
+        "property": "color",
+        "propertyValue": "orange"
+      }
+    ]
+  }
+]
