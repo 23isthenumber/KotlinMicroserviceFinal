@@ -1,6 +1,6 @@
 package com.kotlin.secondservice.queue_broker
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.kotlin.productservice.model.dto.ProductDTO
+import com.kotlin.secondservice.model.dto.ProductDTO
 import org.apache.kafka.common.errors.SerializationException
 import org.apache.kafka.common.serialization.Deserializer
 import org.slf4j.LoggerFactory

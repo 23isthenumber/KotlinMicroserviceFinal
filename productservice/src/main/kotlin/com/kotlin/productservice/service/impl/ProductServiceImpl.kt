@@ -71,7 +71,7 @@ class ProductServiceImpl(val productRepository: ProductRepository, val queueBrok
         productDTO.id = productToUpdate.id
         productToUpdate.name = productDTO.name
         productToUpdate.description = productDTO.description
-        productToUpdate.price.add(productDTO.price)
+        productDTO.price?.let { productToUpdate.price.add(it) }
         productToUpdate.property.clear()
         productToUpdate.property.addAll(productDTO.property)
     }

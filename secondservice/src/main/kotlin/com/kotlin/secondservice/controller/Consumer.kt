@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component
 class Consumer {
     private val logger = LoggerFactory.getLogger(javaClass)
 
-    @KafkaListener(topics = ["product}"], groupId = "ppr")
+    @KafkaListener(topics = ["product"], groupId = "ppr")
     fun listenGroupFoo(consumerRecord: ConsumerRecord<Any, Any>, ack: Acknowledgment) {
         logger.info("Message received {}", consumerRecord)
         println("THIS: " + consumerRecord.value().toString())
