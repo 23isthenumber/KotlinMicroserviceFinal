@@ -9,10 +9,8 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 @ControllerAdvice
 @RestController
 class ExceptionResponseHandler : ResponseEntityExceptionHandler() {
-    //TODO : loggers
     @ExceptionHandler(CustomException::class)
     fun handleCustomExceptions(ex: CustomException): ResponseEntity<CustomExceptionResponse> {
-      //  log.error("<< " + ex.message)
         return ResponseEntity.status(ex.httpStatus).body(CustomExceptionResponse(ex))
     }
 }

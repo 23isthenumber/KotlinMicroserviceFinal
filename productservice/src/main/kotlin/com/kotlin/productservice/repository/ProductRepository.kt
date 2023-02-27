@@ -9,4 +9,3 @@ import org.springframework.stereotype.Repository
 interface ProductRepository : JpaRepository<Product, Long> {
 }
 
-//TODO: , QuerydslPredicateExecutor<Product>

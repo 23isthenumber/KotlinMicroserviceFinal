@@ -6,7 +6,6 @@ import com.kotlin.productservice.model.entity.Product
 import org.springframework.data.domain.Page
 
 interface ProductService {
-    //TODO : mutability
     fun getActiveProductsIds(idList : MutableList<Long>) : List<Long?>
     fun getAllByIdList(idList : MutableList<Long>) : List<ProductDTO>
     fun getById(id : Long) : ProductDTO
